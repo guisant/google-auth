@@ -63,3 +63,22 @@ button {
         background-color: var(--secundary);
     } 
 }
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 40px;
+
+    img {
+        width: 140px;
+        height: 140px;
+        border-radius: 70px;
+    }
+
+    strong {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+}
